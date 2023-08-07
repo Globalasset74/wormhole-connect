@@ -121,6 +121,7 @@ export const TESTNET_NETWORKS: NetworksConfig = {
     gasToken: 'ETHbase',
     chainId: 84531,
     icon: Icon.BASE,
+    automaticRelayer: true,
     maxBlockSearch: 2000,
   },
   sei: {
@@ -573,5 +574,7 @@ export const TESTNET_GAS_ESTIMATES: GasEstimates = {
     claim: 100000,
     sendNative: 1000000,
     sendToken: 1000000,
+    sendNativeWithRelay: 2000000,
+    sendTokenWithRelay: 2000000,
   },
 };
