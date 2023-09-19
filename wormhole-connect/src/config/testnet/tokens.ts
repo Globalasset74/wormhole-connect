@@ -576,4 +576,19 @@ export const TESTNET_TOKENS: TokensConfig = {
       default: 6,
     },
   },
+  KUJI: {
+    key: 'KUJI',
+    symbol: 'KUJI',
+    nativeChain: 'kujira',
+    tokenId: {
+      chain: 'kujira',
+      address: 'ukuji',
+    },
+    icon: Icon.KUJI,
+    coinGeckoId: 'kujira',
+    color: '#f51f1e',
+    decimals: {
+      default: 6,
+    },
+  },
 };

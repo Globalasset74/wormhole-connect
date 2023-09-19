@@ -189,4 +189,11 @@ export const TESTNET_GAS_ESTIMATES: GasEstimates = {
       claim: 0,
     },
   },
+  kujira: {
+    [Route.Bridge]: {
+      sendNative: 0,
+      sendToken: 0,
+      claim: 0,
+    },
+  },
 };
